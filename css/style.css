@@ -1,12 +1,20 @@
+* {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+body {
+    background-color: rgb(255, 180, 162);
+}
+
 /*Navigation Bar*/
 
 .myNavBar {
     position: fixed;
     width: 100%;
     z-index: 10;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-color: #7678ED !important;
+    background-color: rgba(94, 88, 105, 0.65) !important;
     color: white !important;
 }
 
@@ -28,4 +36,41 @@
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
+}
+
+.dropdown-menu {
+    background-color: rgba(109, 104, 117, 0.65);
+}
+
+.dropdown-menu a {
+    font-size: 18px;
+}
+
+/*Jumbotron hero image*/
+
+.jumbotron {
+    background-image: url(../images/sunset2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(80vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid white;
+    margin: 20px;
+}
+
+.jumboCopy {
+    padding-top: 60px;
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    text-align: center;
 }
