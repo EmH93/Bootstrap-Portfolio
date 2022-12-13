@@ -16,6 +16,8 @@ I found using the pre-existing classes difficult at times, and found a good amou
 
 My project is currently one web page based in a html index file and css style sheet, with a folder for images. Cloning this repository will allow visitors to have a closer look at the code, but the page can also be viewed in full here:
 
+https://emh93.github.io/Bootstrap-Portfolio/ 
+
 ## Usage
 
 The page can be accessed via the url shown above. Now we'll look at the sections of the portfolio and how to navigate the page. The page is split into 6 distinct sections:
