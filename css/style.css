@@ -143,7 +143,7 @@ body {
 }
 
 .card:hover {
-    opacity: 90% !important;
+    opacity: 80% !important;
     box-shadow: 5px 5px 20px black;
 }
 
@@ -224,4 +224,73 @@ body {
 .skillsAndProfile {
     margin: 20px;
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Contact Details*/
+
+.myFooter {
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(109, 104, 117);
+    color: white;
+    padding-bottom: 30px;
+}
+
+.myFooter h2 {
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.myFooter .nav-link {
+    font-weight: bold; 
+    font-size: 18px;
+}
+
+.email {
+    background-color: white !important;
+    color: rgba(109, 104, 117) !important; 
+    margin: 5px;
+    border-radius: 20px !important;
+}
+
+.email:hover {
+    color: rgb(109, 104, 117) !important;
+    background-color: rgb(255, 180, 162) !important;
+    margin: 5px;
+    border-radius: 20px !important;
+    box-shadow: 5px 5px 20px #1f1f1f !important;
+}
+
+.linkedin {
+    color: white !important;
+    background-color: rgb(181, 131, 141) !important;
+    margin: 5px;
+    border-radius: 20px !important;
+}
+
+.linkedin:hover {
+    background-color: rgba(255, 180, 162) !important;
+    color: rgb(109, 104, 117) !important; 
+    margin: 5px;
+    border-radius: 20px !important;
+    box-shadow: 5px 5px 20px #1f1f1f !important;
+}
+
+.github {
+    background-color: white !important;
+    color: rgba(109, 104, 117) !important; 
+    margin: 5px;
+    border-radius: 20px !important;
+    
+}
+
+.github:hover {
+    color: rgb(109, 104, 117) !important;
+    background-color: rgb(255, 180, 162) !important;
+    margin: 5px;
+    border-radius: 20px !important; 
+    box-shadow: 5px 5px 20px #1f1f1f !important;
 }
