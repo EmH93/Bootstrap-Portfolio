@@ -102,7 +102,19 @@ body {
     box-shadow: 5px 5px 20px rgba(59, 57, 65, 0.65);
 }
 
+.myButton::after {
+    background-color: green !important;
+}
+
 /*My Work*/
+
+.myWork {
+    background-color: rgb(229, 152, 155);
+    margin: 20px;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 .myWork h2 {
     display: flex;
@@ -112,7 +124,12 @@ body {
     font-size: 45px;
     font-weight: bold;
     text-decoration: underline;
-    padding-top: 50px;
+}
+
+.workIntro {
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 18px;
 }
 
 .card {
@@ -120,6 +137,12 @@ body {
     background-color: rgb(109, 104, 117);
     color: white;
     border: 5px solid white;
+    box-shadow: 5px 5px 20px rgba(109, 104, 117, 0.65);
+}
+
+.card:hover {
+    opacity: 90% !important;
+    box-shadow: 5px 5px 20px black;
 }
 
 .card-body {
@@ -129,4 +152,27 @@ body {
 .card h5 {
     font-size: 21px;
     font-weight: bold;
+}
+
+.myButtonGo {
+    background: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: rgba(109, 104, 117);
+    font-weight: bold;
+
+}
+
+.myButtonGo:hover {
+    background: rgb(229, 152, 155);
+    border: 1px solid rgb(229, 152, 155);
+    border-radius: 20px;
+    color: rgb(82, 74, 97);
+}
+
+.myButtonNo {
+    background-color: rgb(255, 205, 178) !important;
+    border: 1px solid rgb(255, 205, 178) !important;
+    border-radius: 20px !important;
+    color: rgb(82, 74, 97) !important;
 }
