@@ -20,6 +20,7 @@ body {
 
 .navbar-brand {
     font-size: 28px !important;
+    text-decoration: underline;
 }
 
 .myNavBar a {
@@ -99,4 +100,33 @@ body {
     border-radius: 10px;
     color: rgba(109, 104, 117);
     box-shadow: 5px 5px 20px rgba(59, 57, 65, 0.65);
+}
+
+/*My Work*/
+
+.myWork h2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 30px;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 50px;
+}
+
+.card {
+    margin: 10px;
+    background-color: rgb(109, 104, 117);
+    color: white;
+    border: 5px solid white;
+}
+
+.card-body {
+    border-top: 5px solid white;
+}
+
+.card h5 {
+    font-size: 21px;
+    font-weight: bold;
 }
